@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toss-card {
+  background-color: #ffffff;
+  width: 400px;
+  height: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .toss-card {
+    min-width: 700px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  color: #a35200;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-family: 42px;
+  }
+}
+.heads-tails {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+.toss-coin-button {
+  height: 40px;
+  width: 90px;
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+  margin: 30px;
+}
